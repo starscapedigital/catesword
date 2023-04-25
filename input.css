@@ -12,4 +12,14 @@
     height: 2px;
     width: 100%;
   }
+
+  .headshot {
+    max-width: 14rem;
+    @media only screen and (max-width: 480px) {
+      max-width: 9rem;
+    }
+    @media only screen and (max-width: 380px) {
+      max-width: 7rem;
+    }
+  }
 }
