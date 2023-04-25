@@ -6,4 +6,10 @@
   .striped li:nth-child(even) {
     @apply bg-gray-100
   }
+
+  .line {
+    background-image: linear-gradient(to right, white, black, white);
+    height: 2px;
+    width: 100%;
+  }
 }
